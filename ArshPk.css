@@ -3,6 +3,15 @@
     margin: 0;
     font-family: 'Josefin Sans' , sans-serif;
     box-sizing: border-box;
+    @media screen and (max-width: 600px) {
+        padding: 14px 5px;
+    }
+
+    @media screen and (max-width: 700px) {
+        padding: 14px 10px;
+    }
+        
+    
 }
 
 .hero{
